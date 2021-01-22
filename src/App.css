@@ -1,4 +1,59 @@
+
 .App {
   text-align: center;
+  
+}
+.Form-form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#d9edf6;
+  padding:2rem;
+  border-radius:8px;
+  border: solid 2px #6666665e;
+}
+.form-box{
+  background-color: #00af918f;
+  padding:4rem;
+  margin: 0 3rem 3rem 3rem;
+  border-radius:8px;
+  border: solid 2px #6666665e;
+}
+.navbar {
+  padding: 2rem;
+  width: 100%;
+  background:#f58634;
+  box-shadow:  0 0 3px #ebff00, 0 0 19px #0606ff;
 }
 
+.footer{
+  padding: 2rem;
+  background:#f58634;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow:  0 0 3px #ebff00, 0 0 19px #0000FF;
+
+}
+
+.home-form {
+  margin-top:3rem;
+}
+
+.option{
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+img {
+  width: 500px;
+}
+
+.red {
+  color:red;
+}
+
+/* @media only screen and (max-width: 600px) {} */
