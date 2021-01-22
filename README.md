@@ -1,3 +1,59 @@
+# Flights Route App
+A simple route calculator build with [React App](https://github.com/facebook/create-react-app) 
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [To DO](#todo)
+## General info
+
+### Structure
+
+* src
+    * App.js
+    * Components
+         * Footer
+         * Navbar
+         * img
+         * Home
+            * Form
+            * Home
+            * Options
+
+On homepage the user can click on the button to get the best routes, after intruducing in the form the origin and destination, the user get the total price and how much stops it takes to arrive.
+
+## Technologies
+Project is created with:
+    "antd": "^4.10.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4"
+	
+## Setup
+To run this project first install it locally.
+Clone a repository using the command line
+and instructions of [GitHub](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+$ cd ../projectFolder
+$ npm install
+$ npm start
+```
+
+## Features
+* The awesome forms displayed with [AntD](https://ant.design/);
+
+## To DO
+* Displaying the autocomplete airports name
+* Get displayed the names of the airports in case of stops
+* Get airline name 
+* Improving user experience;
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
