@@ -19,9 +19,9 @@ const Options = ({ total, origin, destination, routeInfo, ids }) => {
                         value={total.toFixed(2)}
                         style={{ margin: '0 32px'}}
                     />
-                    <h2>Airline(s): {
+                    {/* <h2>Airline(s): {
                         
-                    }</h2>
+                    }</h2> */}
                 </Card>
             </div>
             }
