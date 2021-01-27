@@ -21,10 +21,10 @@ const Options = ({ total, origin, destination, routeInfo, ids, airlines }) => {
                         style={{ margin: '0 32px'}}
                     />
                     <div className='details'>
-                    <h2>Airline(s):</h2>
+                    <h2 className='onlymob'>Airline(s):</h2>
                      {airlines.filter((item) => 
                         ids.includes(item.id)).map((el,index) => (
-                        <h3 key={index}>{el.name}</h3>
+                        <h4 key={index}>{el.name}</h4>
                       ))}
                       </div>
                 </Card>

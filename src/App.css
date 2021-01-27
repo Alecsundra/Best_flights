@@ -68,4 +68,51 @@ img {
   color:red!important;
   font-weight: 600;
 }
-/* @media only screen and (max-width: 600px) {} */
+
+@media only screen and (max-width: 600px) {
+  img{
+    width: 300px;
+  }
+  .Form-form {
+    display: block;
+  }
+  .form-box {
+    padding:0;
+  }
+  .ant-btn-round.ant-btn-lg {
+    margin-top:1em!important;
+  }
+  .ant-card-head-title {
+    font-size: 16px!important;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .ant-statistic-content{
+    font-size: 16px!important;
+  }
+  .details{
+    padding: 1em;
+    display: block;
+    font-size: 15px;
+    background: none;
+  }
+  .footer {
+    padding: 1rem;
+  }
+  .navbar {
+    padding:1rem;
+  }
+  .option{
+    margin-top:0.75rem;
+  }
+  .onlymob{
+    background: #ffcc29;
+    border-radius: 8px;
+    width: 100%;
+  }
+  h3{
+    margin-top: 0.2em
+  }
+
+}
