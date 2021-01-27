@@ -26,11 +26,11 @@ On homepage the user can click on the button to get the best routes, after intru
 
 ## Technologies
 Project is created with:
-    "antd": "^4.10.3",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+   * "antd": "^4.10.3",
+   * "react": "^17.0.1",
+   * "react-dom": "^17.0.1",
+   * "react-scripts": "4.0.1",
+   * "web-vitals": "^0.2.4"
 	
 ## Setup
 To run this project first install it locally.
@@ -47,12 +47,12 @@ $ npm start
 
 ## Features
 * The awesome forms displayed with [AntD](https://ant.design/);
+* The awsome logo created with [Logo Maker](https://apps.apple.com/lt/app/logo-maker-design-monogram/id1217017670)
 
 ## To DO
-* Displaying the autocomplete airports name
-* Get displayed the names of the airports in case of stops
-* Get airline name 
+* Displaying the autocomplete airports name;
 * Improving user experience;
+* Analyse the api routes to see what more info we can get;
 
 # Getting Started with Create React App
 
