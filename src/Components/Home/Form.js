@@ -3,7 +3,7 @@ import { Select, Button } from 'antd';
 import Options from './Options';
 import logo from '../img/logo.jpeg';
 
-const Form = ( {codes, airlines} ) => {
+const Form = ({codes, airlines }) => {
   const [ origin, setOrigin ] = useState('')
   const [ destination, setDestination ] = useState('')
   const [ routeInfo, setRouteInfo ] =useState([]);
@@ -58,7 +58,7 @@ console.log(routeInfo)
 
     return(
       <>
-      <img src={logo} alt='logo' style={{width:'7rem', margin:'1.5rem', display:'flex'}} />
+      <img src={logo} alt='logo' style={{width:'5rem', margin:'1.2rem', display:'flex'}} />
       <div className='form-box'>
         <div className='Form-form'>
           <div>
@@ -109,6 +109,7 @@ console.log(routeInfo)
               routeInfo={routeInfo}
               total={total}
               ids={ids}
+              airlines={airlines}
           /> 
       </div>
       </>

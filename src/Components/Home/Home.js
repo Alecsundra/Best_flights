@@ -4,7 +4,7 @@ import { SearchOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
 import logo from '../img/logo.jpeg'
 
-const Home = ( {airports,airlines} ) => {
+const Home = ({ airports,airlines }) => {
 
     const [ codes, setCodes ] = React.useState([])
     const [ click, setClick ] = React.useState(false)

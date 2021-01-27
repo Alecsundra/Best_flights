@@ -35,7 +35,7 @@ const App = () => {
  })
     .then((response) => response.json())
     // .then((data => console.log(data)))   
-    .then((data =>setAirlines(data)))
+    .then((data =>setAirlines(data.data)))
     .catch(err=>{
       console.log(err,'error')
       alert('Found a problem fetching data')
